@@ -17,6 +17,7 @@
                 minimumInputLength: 3,
 
                 ajax: {
+                    delay: 250, // wait 250 milliseconds before triggering the request
                     url: "ajax_get_data.php",
                     type: "post",
                     dataType: 'json',
